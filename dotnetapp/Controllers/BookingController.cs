@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using dotnetapp.Exceptions;
 using dotnetapp.Models;
 
-namespace Tablebooking.Controllers
+namespace dotnetapp.Controllers
 {
     public class BookingController : Controller
     {

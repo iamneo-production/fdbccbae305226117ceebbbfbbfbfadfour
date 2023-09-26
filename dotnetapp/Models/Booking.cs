@@ -5,6 +5,6 @@ public class Booking{
     public int DinningTableID {get;set;}
     public int CustomerID {get;set;}
      
-    public DateTime Capacity {get;set;}
-    public ICollection<Student> Students {get;set;}
+    public DateTime ReservationDate {get;set;}
+    
 }}
