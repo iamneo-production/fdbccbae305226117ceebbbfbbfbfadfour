@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 public class ApplicationDbContext : DbContext
     {
-public ApplicationDbContext()
+    public ApplicationDbContext()
         {
         }  
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
@@ -18,7 +18,7 @@ public ApplicationDbContext()
 
         public virtual DbSet<Booking> Bookings { get; set; }
         public virtual DbSet<DinningTable> DinningTables { get; set; }
-protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
