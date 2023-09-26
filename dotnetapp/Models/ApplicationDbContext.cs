@@ -1,3 +1,9 @@
+using dotnetapp.Models;
+using System;
+ 
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata;
+
 public class ApplicationDbContext : DbContext
     {
 public ApplicationDbContext()
